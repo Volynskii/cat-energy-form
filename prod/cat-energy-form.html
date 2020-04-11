@@ -1,135 +1,135 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="utf-8">
-<title>PINK</title>
-<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700&display=swap" rel="stylesheet">
-<link href="styles/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>PINK</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
 <header class="page-header">
-    
+
     <article class="header-navigation">
         <div class="find-programm-logotype-tablet"></div>
-    <ul class="header-menu">
-<li class="header-menu-item">ГЛАВНАЯ
-        </li>
-<li class="header-menu-item">КАТАЛОГ ПРОДУКЦИИ</li>
-<li class="header-menu-item"> ПОДБОР ПРОГРАММЫ</li>
-    </ul>
+        <ul class="header-navigation__open-close">
+            <li class="header-navigation__open-close__item-one"></li>
+            <li class="header-navigation__open-close__item-two"></li>
+            <li class="header-navigation__open-close__item-three"></li>
+        </ul>
+        <div class="header-menu">
+            <a href="https://vk.com/" class="header-menu-item">ГЛАВНАЯ</a>
+            <a href="https://vk.com/" class="header-menu-item">КАТАЛОГ ПРОДУКЦИИ</a>
+            <a href="https://vk.com/" class="header-menu-item">ПОДБОР ПРОГРАММЫ</a>
+        </div>
     </article>
-     </header>
-    
-    <main>
-        <article class="find-program">
-            <section class="introduction">
+</header>
+
+<main>
+    <article class="find-program">
+        <section class="introduction">
             <h1 class="introduction__headline">Подбор программы</h1>
-        
-        <p class="introduction__text">ЗАПОЛНИТЕ АНКЕТУ И МЫ ПОДБЕРЕМ<br>
-ПРОГРАММУ ПИТАНИЯ ДЛЯ ВАШЕГО КОТА</p>
-                </section>
-       
-        
+
+            <p class="introduction__text">ЗАПОЛНИТЕ АНКЕТУ И МЫ ПОДБЕРЕМ<br>
+                ПРОГРАММУ ПИТАНИЯ ДЛЯ ВАШЕГО КОТА</p>
+        </section>
+
         <section class="basic-information">
             <ul class="basic-information__data">
-        <li class="basic-information__data__item"><label for="name">Имя:*</label><input id="name" type="text" placeholder="Барсик"></li>
-       <li class="basic-information__data__item"><label for="weight">Вес (кг):*</label><input id="weight" type="number" placeholder="7"></li>
-      <li class="basic-information__data__item"><label for="age">Возраст (лет):</label><input id="age" type="number" placeholder="7"></li>
-                </ul>
-            
-        <div class="basic-information__choose-program">
-            <ul class="basic-information__choose-program__wrapper">
-        <li class="basic-information__choose-program__wrapper__item"><input id="rfirst" type="radio" checked name="first"/>
-        <label class="basic-information__choose-program__wrapper__item" for="rfirst">ПОХУДЕНИЕ</label>
-            </li>
-            <li class="basic-information__choose-program__wrapper__item"><input id="rsecond" type="radio" name="first"/>
-        <label class="" for="rsecond">НАБОР МАССЫ</label>
-            </li>
-            <li class="basic-information__choose-program__wrapper__item"><input id="rthird" type="radio"  name="first"/>
-        <label class="" for="rthird">Не знаю (Нужен ваш совет)</label>
-            </li>
-                </ul>
-        </div>
-            </section>
-            </article>
-            
-        <article class="your-data">
-        <fieldset class="your-data__fieldset">
-        <legend class="your-data__fieldset__legend">Контактные данные (владельца кота)</legend>
-            <ul class="your-data__fieldset__list">
-        <li class="your-data__fieldset__list__email"><label for="email">E-MAIL:*</label> <input id="email" type="email" placeholder="kuklachev@gmail.com"></li>
-        <li class="your-data__fieldset__list__number"><label for="tel">ТЕЛЕФОН:*</label><input id="tel" type="tel" placeholder="8 (960) 900-60-90"></li>
-                </ul>
-        </fieldset>
-        </article>
-           
-        <article class="comment">
-        <fieldset class="comment__fieldset">
-        <legend class="comment__legend">Комментарий</legend>
-        <textarea class="comment__fieldset__textarea" placeholder="Расскажите обо всех повадках кота"></textarea>
-        </fieldset>
-       </article>
-        
-        <article class="additional-suppliment">
-        <fieldset class="additional-suppliment__fieldset">
-        <legend class="additional-suppliment__legend">Дополнительно</legend>
-            <div class="additional-suppliment__fieldset__wrapper">
-        <ul class="additional-suppliment__fieldset__list">
-        <li class="additional-suppliment__fieldset__list__item"><input id="cfirst" type="checkbox" checked><label for="cfirst">Сахарозаменитель</label></li>
-         <li class="additional-suppliment__fieldset__list__item"><input id="csecond" type="checkbox"><label for="csecond">Питьевая вода</label></li>
-         <li class="additional-suppliment__fieldset__list__item"><input id="cthird" type="checkbox"><label for="cthird">Молоко</label></li>
-         <li class="additional-suppliment__fieldset__list__item"><input id="cfourth" type="checkbox"><label for="cfourth">Витамины</label></li>
-        </ul>
-          
-            <div class="additional-suppliment__fieldset__submit-block">
-        <input class="additional-suppliment__fieldset__submit-block__submit" type="submit" value="отправить заявку">
-            <span class="additional-suppliment__fieldset__submit-block__span">* — Обязательные поля</span>
-                </div>
-                </div>
-            
-        </fieldset>
-            </article>
-        
-        <article class="partnership">
-            <div class="partnership__wrapper">
-                <div class="partnership__textcontent">ПРИГЛАШАЕМ <br>
-К СОТРУДНИЧЕСТВУ <br>
-ДИЛЕРОВ!</div>
-                <ul class="partnership__address">
-                    <li>ул. Большая Конюшенная, д. 19/8</li>
-                    <li>Санкт-Петербург</li>
+                <li class="basic-information__data__item"><label for="name">Имя:*</label><input class="field-long" id="name" type="text" placeholder="Барсик"></li>
+                <li class="basic-information__data__item"><label for="weight">Вес (кг):*</label><input class="field-long" id="weight" type="number" placeholder="7"></li>
+                <li class="basic-information__data__item"><label for="age">Возраст (лет):</label><input class="field-long" id="age" type="number" placeholder="7"></li>
+            </ul>
+
+            <div class="basic-information__choose-program">
+                <ul class="basic-information__choose-program__wrapper">
+                    <li class="basic-information__choose-program__wrapper__item"><input id="rfirst" type="radio" checked name="first"/>
+                        <label class="basic-information__choose-program__wrapper__item" for="rfirst">ПОХУДЕНИЕ</label>
+                    </li>
+                    <li class="basic-information__choose-program__wrapper__item"><input id="rsecond" type="radio" name="first"/>
+                        <label class="" for="rsecond">НАБОР МАССЫ</label>
+                    </li>
+                    <li class="basic-information__choose-program__wrapper__item"><input id="rthird" type="radio"  name="first"/>
+                        <label class="" for="rthird">Не знаю (Нужен ваш совет)</label>
+                    </li>
                 </ul>
             </div>
-        </article>
-        
-        <article id="map">
-        </article>
-        
-        <script src="google-map.js"></script>
-        <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBme58AN9wAyTA0qRNM7P2pJ-zW0tA9Cww&callback=initMap">
+        </section>
+    </article>
+    <article class="your-data">
+        <fieldset class="your-data__fieldset">
+            <legend class="your-data__fieldset__legend">Контактные данные (владельца кота)</legend>
+            <ul class="your-data__fieldset__list">
+                <li class="your-data__fieldset__list__email"><label for="email">E-MAIL:*</label> <input class="field-long" id="email" type="email" placeholder="kuklachev@gmail.com"></li>
+                <li class="your-data__fieldset__list__number"><label for="tel">ТЕЛЕФОН:*</label><input class="field-long" id="tel" type="tel" placeholder="8 (960) 900-60-90"></li>
+            </ul>
+        </fieldset>
+    </article>
+
+    <article class="comment">
+        <fieldset class="comment__fieldset">
+            <legend class="comment__legend">Комментарий</legend>
+            <textarea class="comment__fieldset__textarea" placeholder="Расскажите обо всех повадках кота"></textarea>
+        </fieldset>
+    </article>
+
+    <article class="additional-suppliment">
+        <fieldset class="additional-suppliment__fieldset">
+            <legend class="additional-suppliment__legend">Дополнительно</legend>
+            <div class="additional-suppliment__fieldset__wrapper">
+                <ul class="additional-suppliment__fieldset__list">
+                    <li class="additional-suppliment__fieldset__list__item"><input id="cfirst" type="checkbox" checked><label for="cfirst">Сахарозаменитель</label></li>
+                    <li class="additional-suppliment__fieldset__list__item"><input id="csecond" type="checkbox"><label for="csecond">Питьевая вода</label></li>
+                    <li class="additional-suppliment__fieldset__list__item"><input id="cthird" type="checkbox"><label for="cthird">Молоко</label></li>
+                    <li class="additional-suppliment__fieldset__list__item"><input id="cfourth" type="checkbox"><label for="cfourth">Витамины</label></li>
+                </ul>
+
+                <div class="additional-suppliment__fieldset__submit-block">
+                    <input class="additional-suppliment__fieldset__submit-block__submit" type="submit" value="отправить заявку">
+                    <span class="additional-suppliment__fieldset__submit-block__span">* — Обязательные поля</span>
+                </div>
+            </div>
+
+        </fieldset>
+    </article>
+
+    <article class="partnership">
+        <div class="partnership__wrapper">
+            <div class="partnership__textcontent">ПРИГЛАШАЕМ <br>
+                К СОТРУДНИЧЕСТВУ <br>
+                ДИЛЕРОВ!</div>
+            <ul class="partnership__address">
+                <li>ул. Большая Конюшенная, д. 19/8</li>
+                <li>Санкт-Петербург</li>
+            </ul>
+        </div>
+    </article>
+
+    <article id="map">
+    </article>
+
+    <script src="google-map.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBme58AN9wAyTA0qRNM7P2pJ-zW0tA9Cww&callback=initMap">
     </script>
-        
-    </main>
-    <footer class="page-footer">
-     <section class="page-footer__wrapper">
+
+</main>
+<footer class="page-footer">
+    <section class="page-footer__wrapper">
         <div class="page-footer__item--one"></div>
-         
-         <ul class="page-footer__item--two">
-             <li class="page-footer__item--two--first"></li>
-             <li class="page-footer__item--two--second"></li>
-             <li class="page-footer__item--two--third"></li>
-         </ul>
-         
-         <div class="page-footer__item--three">
-             <p class="page-footer--text">HTML Academy</p>
-             <div class="page-footer__item--three--sign"></div>
-         </div>
-         </section>  
-    </footer>
-    <script src="change-tagname.js"></script>
-      <script src="catalot-item.js"></script>
-    </body>
+
+        <div class="page-footer__item--two">
+            <a target="_blank" class="page-footer__item--two--first" href="https://vk.com/im"></a>
+            <a target="_blank" class="page-footer__item--two--second" href="https://www.instagram.com/"></a>
+            <a target="_blank" class="page-footer__item--two--third" href="https://www.facebook.com/"></a>
+        </div>
+
+        <div class="page-footer__item--three">
+            <a target="_blank" class="page-footer--text" href="https://htmlacademy.ru/study">HTML Academy</a>
+            <a class="page-footer__item--three--sign"></a>
+        </div>
+    </section>
+</footer>
+</body>
 
 
 
