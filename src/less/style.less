@@ -159,7 +159,7 @@ input#tel:focus       {
     width: 87.5%;
     margin: 0 auto;
     order: 1;
-    .display(flex,column,flex-start,center);
+    .display(flex,column,flex-end,center);
   }
   .header-navigation__open-close {
     .display(flex,none,space-between,center);
@@ -183,10 +183,19 @@ height: 38px;
     cursor: pointer;
   }
   .header-navigation__open-close__item-three {
+    background: url(../pictures/mobile-menu.png) no-repeat right;
+    height: 18px;
+    width: 24px;
+    cursor: pointer;
+  }
+  .header-navigation__open-close__close {
     background: url(../pictures/menu-close-sign.png) no-repeat center;
     height: 18px;
-    width: 18px;
+    width: 24px;
     cursor: pointer;
+  }
+  .visually-hidden {
+    display: none;
   }
   .header-menu {
     text-transform:capitalize;
